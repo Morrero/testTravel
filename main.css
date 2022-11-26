@@ -1,161 +1,115 @@
+@import url(./reset.css);
+@import url(./variables.css);
 
-@font-face {
-	font-family: Red Hat Text;
-	src: url(../fonts/RedHatText-Italic-VariableFont_wght.ttf);
-}
-@font-face {
-	font-family: Red Hat Text;
-	src: url(../fonts/RedHatText-VariableFont_wght.ttf);
-}
-
-@font-face {
-	font-family: Magra;
-	src: url(../fonts/Magra-Bold.ttf);
+body {
+    color: var(--main-color);
+    font-family: var(--main-font);
+    font-size: var(--txt-main-size);
 }
 
-@font-face {
-	font-family: Magra;
-	src: url(../fonts/Magra-Regular.ttf);
+.wrapper {
+    width: 100%;
+    margin: 0 auto;
 }
 
-@font-face {
-	font-family: Aleo;
-	src: url(../fonts/Aleo-Bold.ttf);
-}
-@font-face {
-	font-family: Aleo;
-	src: url(../fonts/Aleo-Regular.ttf);
-}
-.background-site {
-background-image: url(../img/backgroundfirst.jpg);
-position: absolute;
-width: 1440px;
-height: 765px;
-left: 0px;
-top: 0px;
+.bg-top {
+    background-image: url(../img/top-bg.jpg);
+    background-size: 100%;
 }
 
-.background-site_red {
-position: absolute;
-width: 1440px;
-height: 90px;
-left: 0px;
-top: 0px;
-
-background: rgba(242, 120, 92, 0.7);
-box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+header {
+    background: rgba(242, 120, 92, 0.7);
+    box-shadow: 0px 4px 4px rgba(13, 96, 111, 0.5);
+    color: #fff;
+    font-family: var(--secondary-font);
+    font-size: var(--txt-small-size);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90px;
+    padding-left: 120px;
+    padding-right: 120px;
 }
 
 .logo {
-	position: absolute;
-width: 180px;
-height: 31px;
-left: 156px;
-top: 25px;
-
-font-family: 'Magra';
-font-style: normal;
-font-weight: 600;
-font-size: 32px;
-line-height: 39px;
-
-color: #FFFFFF;
-}
-.one {
-	width: 98px;
-height: 21px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 21px;
-text-decoration: none;
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 0;
-flex-grow: 0;
-}
-.two {
-	width: 105px;
-height: 21px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 21px;
-text-decoration: none;
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+    height: 31px;
+    width: 216px;
+    margin-top: -8px;
 }
 
-.three {
-	width: 95px;
-height: 21px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 21px;
-text-decoration: none;
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 2;
-flex-grow: 0;
+nav {
+    margin-left: -21px;
 }
 
-.four {
-	width: 103px;
-height: 21px;
-
-font-family: 'Red Hat Text';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 21px;
-text-decoration: none;
-
-color: #FFFFFF;
-
-
-/* Inside auto layout */
-
-flex: none;
-order: 3;
-flex-grow: 0;
+nav a {
+    margin-left: 21px;
+    margin-right: 21px;
+    text-transform: capitalize;
 }
 
-.login-menu {
+.login-btn {
+    background-color: var(--main-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 2px 3px rgba(13, 96, 111, 0.16);
+    border-radius: 10px;
+    width: 103px;
+    height: 41px;
+    text-align: center;
+}
+
+.explore {
+    color: #fff;
+    padding: 32px 120px;
+    height: 675px;
+}
+
+h1 {
+    font-size: var(--header-l1-size);
+    font-weight: 700;
+    line-height: 96px;
+    margin-bottom: 26px;
+    max-width: 892px;
+}
+
+.explore-desc {
+    font-style: italic;
+    line-height: 24px;
+    font-weight: 700;
+}
+
+.site-search {
 	display: flex;
-flex-direction: row;
-justify-content: center;
-align-items: center;
-padding: 10px 229px;
-gap: 10px;
-
-position: absolute;
-width: 103px;
-height: 41px;
-left: 1217px;
-top: 25px;
+	background: rgba(255, 255, 255, 0.7);
+  border-radius: 16px;
+  width: 892px;
+  height: 95px;
+	margin-top: 46px;
+	align-items: center;
 
 }
+form input {
+	margin-left: 41px;
+	margin-right: 50.5px;
+}
+
+.poisk {
+	width: 560px;
+}
+input::placeholder {
+	color: #F2785C;
+	
+}
+
+.button-poisk {
+	gap: 10px;
+	background: #0D606F;
+	width: 228px;
+  height: 59px;
+  box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+  border-radius: 10px;
+	margin-right: 50.5px;
+	margin-left: 45px;
+	padding-left: 32.5px;
+}
+
+
+
