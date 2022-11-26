@@ -82,13 +82,13 @@ h1 {
   border-radius: 16px;
   width: 892px;
   height: 95px;
-	margin-top: 46px;
+	
 	align-items: center;
 
 }
 form input {
 	margin-left: 41px;
-	margin-right: 50.5px;
+	margin-right: 18px;
 }
 
 .poisk {
@@ -100,15 +100,13 @@ input::placeholder {
 }
 
 .button-poisk {
-	gap: 10px;
+	
 	background: #0D606F;
 	width: 228px;
-  height: 59px;
+	height: 59px;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
-	margin-right: 50.5px;
-	margin-left: 45px;
-	padding-left: 32.5px;
+  padding-left: 32.5px;
 }
 
 
