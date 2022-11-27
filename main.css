@@ -77,23 +77,19 @@ h1 {
 }
 
 .site-search {
-	margin-top: 46px;
 	display: flex;
+	margin-top: 46px;
 	background: rgba(255, 255, 255, 0.7);
 	width: 892px;
   height: 95px;
 	align-items: center;
-	padding-left: 41px;
   border-radius: 16px;
+	justify-content: space-between;
 	padding-right: 18px;
 }
 
 input::placeholder {
 	color: #F2785C;
-}
-
-input::-ms-clear {
-	display: none;
 }
 
 input[type="search"]::-webkit-search-cancel-button,
@@ -104,17 +100,22 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .poisk {
-	flex: 1 560px;
+	font-style: italic;
+	padding-left: 41px;
+	width: 560px;
 }
 
 .button-poisk {
-	flex: 2 228px;
 	height: 59px;
-	align-items: center;
+	width: 228px;
 	background: #0D606F;
   box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
   border-radius: 10px;
-  padding-left: 77.5px;
+ 	text-align: center;
+
+	font-family: var(--secondary-font);
+	font-size: var(--txt-md-size);
+	line-height: 32px;
 }
 
 /*
