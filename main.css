@@ -120,9 +120,8 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .steps {
 	background: #E5E5E5;
-	display: flex;
+	
 	padding-top: 40px;
-	justify-content: space-between;
 }
 
 .steps_to_the {
@@ -136,24 +135,51 @@ input[type="search"]::-webkit-search-results-decoration {
 	background: #E5E5E5;
 }
  
-.bike {
-	height: 45px;
-	width: 50px;
-}
-
-.calendar {
-	height: 52px;
-	width: 52px;
-}
-
-.airplane {
-width: 60px;
-height: 45px;
-}
-
-.steps img {
-	background: #F2785C;
-	background-size: 100px 100px;
-border-radius: 16px;
+.container_steps_one {
+	background-color: #F2785C;
+	width: 100px;
+	height: 100px;
+	border-radius: 16px;
+	padding-top: 28px;
+	padding-left: 25px;
 
 }
+
+.container_steps_tw {
+	background-color: #F2785C;
+	width: 100px;
+	height: 100px;
+	border-radius: 16px;
+  padding: 24px;
+}
+
+.container_steps_th {
+	background-color: #F2785C;
+	width: 100px;
+	height: 100px;
+	border-radius: 16px;
+	padding-top: 28px;
+	padding-left: 20px;
+}
+
+.cont {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+  padding-top: 40px;
+	padding-left: 204px;
+	padding-right: 240px;
+}
+.cont_tw {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding-top: 30px;
+	padding-left: 131px;
+	padding-right: 132px;
+	font-style: normal;
+	font-weight: 400;
+}
+
+
+
