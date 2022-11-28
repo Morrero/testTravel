@@ -181,5 +181,38 @@ input[type="search"]::-webkit-search-results-decoration {
 	font-weight: 400;
 }
 
+.destinations {
+	background: #E5E5E5;
+}
+.h2_destinations {
+	font-family: var(--secondary-font);
+	font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+	text-align: center;
+	padding-top: 97px;
 
+}
 
+.spain {
+	
+}
+
+.japan {
+	background-image: url(../img/Japan.png);
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	left: 320px;
+
+}
+
+.bg {
+	background: #E5E5E5;
+	padding-top: 46px;
+}
+
+.japan_text {
+	padding-top: 718px;
+	padding-left: 15px;
+}
