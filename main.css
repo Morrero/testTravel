@@ -120,7 +120,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .steps {
 	background: #E5E5E5;
-	
+
 	padding-top: 40px;
 }
 
@@ -130,11 +130,11 @@ input[type="search"]::-webkit-search-results-decoration {
 	color: var(--secondary-color);
 	font-family: var(--secondary-font);
 	font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
+	font-weight: 500;
+	font-size: 40px;
 	background: #E5E5E5;
 }
- 
+
 .container_steps_one {
 	background-color: #F2785C;
 	width: 100px;
@@ -150,7 +150,7 @@ input[type="search"]::-webkit-search-results-decoration {
 	width: 100px;
 	height: 100px;
 	border-radius: 16px;
-  padding: 24px;
+	padding: 24px;
 }
 
 .container_steps_th {
@@ -166,10 +166,11 @@ input[type="search"]::-webkit-search-results-decoration {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-  padding-top: 40px;
+	padding-top: 40px;
 	padding-left: 204px;
 	padding-right: 240px;
 }
+
 .cont_tw {
 	display: flex;
 	flex-wrap: wrap;
@@ -184,35 +185,185 @@ input[type="search"]::-webkit-search-results-decoration {
 .destinations {
 	background: #E5E5E5;
 }
+
 .h2_destinations {
 	font-family: var(--secondary-font);
+	color: var(--secondary-color);
 	font-style: normal;
-  font-weight: 500;
-  font-size: 40px;
+	font-weight: 500;
+	font-size: 40px;
 	text-align: center;
 	padding-top: 97px;
 
 }
 
-.spain {
-	
+.bg_destinations {
+	display: flex;
+	margin-top: 46px;
+	margin-left: -540px;
+	overflow: hidden;
 }
 
-.japan {
-	background-image: url(../img/Japan.png);
+.bg_spain {
+
+	background-image: url(../img/Spain.png);
+	background-size: 100% 100%;
 	width: 800px;
 	height: 800px;
-	position: absolute;
-	left: 320px;
-
-}
-
-.bg {
-	background: #E5E5E5;
-	padding-top: 46px;
-}
-
-.japan_text {
+	border-radius: 16px;
+	overflow: hidden;
+	flex-shrink: 0;
+	margin-left: 60px;
 	padding-top: 718px;
 	padding-left: 15px;
+	font-family: var(--secondary-font);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+
+.bg_japan {
+	background-image: url(../img/Japan.png);
+	background-size: 100% 100%;
+	flex-shrink: 0;
+	width: 800px;
+	height: 800px;
+	border-radius: 16px;
+	overflow: hidden;
+	margin-left: 60px;
+	padding-top: 718px;
+	padding-left: 15px;
+	font-family: var(--secondary-font);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+
+.bg_usa {
+	background-image: url(../img/USA.png);
+	background-size: 100% 100%;
+	width: 800px;
+	height: 800px;
+	border-radius: 16px;
+	overflow: hidden;
+	flex-shrink: 0;
+	margin-left: 60px;
+	margin-right: 60px;
+	padding-top: 718px;
+	padding-left: 15px;
+	font-family: var(--secondary-font);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 32px;
+	line-height: 42px;
+	color: #FFFFFF;
+}
+
+.buttons_kn_1,
+.buttons_kn_3 {
+	width: 20px;
+	height: 20px;
+	border-radius: 45px;
+	margin-left: 10px;
+	margin-right: 10px;
+	background: rgba(242, 120, 92, 0.5);
+}
+
+.buttons_kn_2 {
+	width: 20px;
+	height: 20px;
+	border-radius: 45px;
+	background: #F2785C;
+}
+
+.kar {
+	display: flex;
+	margin-top: 24px;
+	justify-content: center;
+}
+
+.find-more {
+	background: #0D606F;
+	box-shadow: 0px 0px 3px rgba(13, 96, 111, 0.08), 0px 2px 3px rgba(13, 96, 111, 0.16);
+	border-radius: 10px;
+	width: 228px;
+	height: 59px;
+	color: #FFFFFF;
+	display: flex;
+	justify-items: center;
+	margin-top: 40px;
+	margin-left: 640.5px;
+	padding-left: 33.5px;
+}
+
+.stories {
+	background: #E5E5E5;
+}
+
+.h2_stories {
+	font-family: var(--secondary-font);
+	color: var(--secondary-color);
+	font-style: normal;
+	font-weight: 500;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+.bg_stories {
+	width: 100%;
+	height: 1331px;
+	background-image: url(../img/stories.png);
+	margin-top: 40px;
+	background-size: 100%;
+}
+
+.main_stories {
+	width: 100%;
+	height: 1270px;
+	background: rgba(255, 255, 255, 0.7);
+}
+
+.main_stories {}
+
+.photos {}
+
+.photos_img {
+	width: 400px;
+	height: 250px;
+	background: url(robin-noguier-sydwCr54rf0-unsplash.jpg);
+	filter: drop-shadow(0px 4px 4px #0D606F);
+	border-radius: 16px;
+	margin-top: 40px;
+	margin-left: 120px;
+}
+
+.photos h3 {}
+
+
+.all_rig {
+
+	color: #fff;
+
+	padding-left: 590px;
+	display: flex;
+
+}
+
+.all_rig p {
+	padding-top: 21px;
+}
+
+.soc {
+	margin-left: 329.4px;
+	padding-top: 16px;
+}
+
+.gr,
+.akar {
+	padding-left: 24.21px;
 }
